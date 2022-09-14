@@ -1,0 +1,15 @@
+git config --global user.name " ten nguoi dung "
+git config --global email "enail cua ban "
+// 2 lenh nay chi can go lan dau khi moi cai dat git thoi
+
+co 2 cach de tao 1 thu muc co chua git 
+cach 1 :
+clone tu 1 repo co san o tren git hub
+
+git clone link-clone
+vd link cua nhom minh 
+git clone https://github.com/nahcettolrahc/TestDemoGitt
+
+cach 2:
+git init 
+chi dinh 1 thu muc co san 
