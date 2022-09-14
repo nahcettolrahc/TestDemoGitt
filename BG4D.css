@@ -10,3 +10,6 @@ h2.note{
 h1.example{
     color: peru;
 }
+pre{
+    font-size: 130%;
+}
