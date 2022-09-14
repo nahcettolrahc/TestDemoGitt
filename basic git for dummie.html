@@ -1,35 +1,46 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<title>Basic Git 4 Dummies</title>
+    <title>Basic Git 4 Dummies</title>
+    <link rel="stylesheet" href="BG4D.css">
 </head>
 
 <body>
-    git config --global user.name " ten nguoi dung "
-    git config --global user.email "enail cua ban "
-    // 2 lenh nay chi can go lan dau khi moi cai dat git thoi
+    <h1 class="code">git config --global user.name " ten nguoi dung "</h1>
+    <h1 class="code">git config --global user.email "enail cua ban "</h1>
+    <h1 class="note"> 2 lệnh này chỉ gõ lần đầu khi mới cài git </h2>
+
+    <h2 class="note"> Có 2 cách để tạo thư mục làm việc với Git </h2>
+    <h2 class="note">Cách 1 :clone từ 1 repo có sẵn ở github</h2>
+    <h1 class="code">git clone link-clone</h1>
+    <h1 class="example">vd link cua nhom minh</h2> 
+    <h1 class="example">git clone https://github.com/nahcettolrahc/TestDemoGitt</h2>    
+    <h2 class="note">Cách 2 :Chỉ Định 1 thư mục có sẵn làm thư mục chứa git</h2>
+    <h1 id="code"></h1>
+    <h1 class="code">git init</h1>
     
-    co 2 cach de tao 1 thu muc co chua git 
-    cach 1 :
-    clone tu 1 repo co san o tren git hub
-    
-    git clone link-clone
-    vd link cua nhom minh 
-    git clone https://github.com/nahcettolrahc/TestDemoGitt
-    
-    cach 2:
-    git init 
-    chi dinh 1 thu muc co san o may tinh lam thu muc chua git 
-    
-    ok sau khi da co xong thu muc thi moi nguoi tap them file vao nhe 
-    dau tien tao 1 file moi voi ten gi cuxng duoc nam1,hien123,thinh,hao,duc3456 bla ble
-    sau khi co file moi roi thi su dung lenh
-    git add . 
-    
+    <h1 class="note">Ok sau khi có thư mục rồi thì mọi người thêm file vào</h1>
+    <h2 class="note">tạo 1 file mới vd nam1,hien123,thinh,hao,duc3456 bla ble</h1>
+    <h2 class="note">rồi sử dụng lệnh add (lệnh add . là add tất cả mọi file trong folder)</h1>
+    <h1 class="code">git add .</h1>
+    <h1 class="example">git add basic git for dummie.txt </h1>
+    sau đó thì nó sẽ vào 1 cái khu vuẹc gọi là staging area //lười qué đ viết màu mè nữa
+    à có 3 khu vực ở git
+    working space (working directory) là thư mục mình đang làm việc hiện tại
+    staging area là nơi mình chuẩn bị up file lên remote sever 
+    remote sever là chỗ máy chủ kiểu github hoặc gitlab
+
+    đó sau khi add nó vào staging area thì ta phải dùng lệnh 
+    <h1 class="code">git commit -m "nội dung tin nhắn"</h1>
+    để cho git biết được cbi gửi cái file mới lập vd file mới lên
+    <h1 class="example">git commit -m "cap nhat file dummie len github"</h1>
+    sau khi dán tem rồi cho nó ra sân bay ( staging area) ta phải phóng cái máy bay đi aka đẩy ló lên sever
+    sẽ xài lệnh 
+    <h1 class="code">git push</h1>
+    push lên ròi lên github refesh lại thấy có file là ocela
+
+
 </body>
+
 </html>
-
-
-
-
-

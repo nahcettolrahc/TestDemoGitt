@@ -1,0 +1,12 @@
+h1.code{
+    color: green;
+}
+h1.note{
+    font-style: italic;
+}
+h2.note{
+    font-style: italic;
+}
+h1.example{
+    color: peru;
+}
