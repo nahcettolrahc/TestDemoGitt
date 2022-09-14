@@ -3,7 +3,7 @@
 
 <head>
     <title>Basic Git 4 Dummies</title>
-    <link rel="stylesheet" href="BG4D.css">
+    <link rel="stylesheet" href="./BG4D.css">
 </head>
 
 <body>
@@ -22,17 +22,22 @@
     
     <h1 class="note">Ok sau khi có thư mục rồi thì mọi người thêm file vào</h1>
     <h2 class="note">tạo 1 file mới vd nam1,hien123,thinh,hao,duc3456 bla ble</h1>
+   
+    <pre> đó thì nó sẽ vào 1 cái khu vuẹc gọi là staging area //lười qué đ viết màu mè nữa
+    à có 3 khu vực ở git
+    working space (working directory) là thư mục mình đang làm việc hiện tại( gọi vui là máy mình)
+    staging area là nơi mình chuẩn bị up file lên remote sever (gọi vui là sân bay)
+    remote sever là chỗ máy chủ kiểu github hoặc gitlab
+
+    <pre>à hiện tại sau khi mình tạo mới và chưa đưa nó vào khu sân bay  </pre>
+    <h1 class="code">git status</h1>
+    <pre>nó sẽ show ra file nào chưa bay và gạ mình để cho file đó ra sân bay</pre>
     <h2 class="note">rồi sử dụng lệnh add (lệnh add . là add tất cả mọi file trong folder)</h1>
     <h1 class="code">git add .</h1>
     <h1 class="example">git add basic git for dummie.txt </h1>
-    sau đó thì nó sẽ vào 1 cái khu vuẹc gọi là staging area //lười qué đ viết màu mè nữa
-    à có 3 khu vực ở git
-    working space (working directory) là thư mục mình đang làm việc hiện tại
-    staging area là nơi mình chuẩn bị up file lên remote sever 
-    remote sever là chỗ máy chủ kiểu github hoặc gitlab
 
-    đó sau khi add nó vào staging area thì ta phải dùng lệnh 
-</pre>
+    <pre>đó sau khi add nó vào staging area thì ta phải dùng lệnh </pre>
+
     <h1 class="code">git commit -m "nội dung tin nhắn"</h1>
     <pre>để cho git biết được cbi gửi cái file mới lập vd file mới lên</pre>
     <h1 class="example">git commit -m "cap nhat file dummie len github"</h1>
@@ -54,7 +59,7 @@
     thì có nhánh rùi ta muốn chuyển nhánh thì xài lệnh 
     <h1 class="code">git checkout nhánh-muốn-chuyển</h1>
     <h1 class="example">git checkout letoan</h1>
-
+    <pre>sau đó thì sẽ có 2 lệnh là git merge và rebase tí update sau </pre>
 
 </body>
 
